@@ -56,7 +56,7 @@ Note: Ensure MySQL is running and the database gha_eca_db exists.
  Run the Application
 From the project root, open your terminal and run:
 
-copy code
+
 mvn spring-boot:run
 The API will start at:
  http://localhost:8080
@@ -75,15 +75,13 @@ GHA ECA Frontend
 Build & Package
 To build the project and create the JAR file:
 
-copy code
+
 mvn clean package
 The packaged artifact will appear in:
 
-copy code
+
 target/gha-eca-backend-*.jar
 To run it manually:
-
-copy code
 java -jar target/gha-eca-backend-*.jar
 
  Future Enhancements
